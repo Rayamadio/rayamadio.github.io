@@ -535,6 +535,8 @@ section {
 /* Ajoutez une règle spécifique pour les images en format portrait */
 .carousel-item img.portrait {
   max-height: 600px; /* Ajustez la hauteur maximale pour les images portrait selon vos besoins */
+  width: auto;
+  object-fit: cover;
 }
 
 .carousel-control-prev,
