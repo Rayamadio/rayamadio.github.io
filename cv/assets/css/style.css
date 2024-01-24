@@ -500,7 +500,6 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
-
 /*--------------------------------------------------------------
 # Photos
 --------------------------------------------------------------*/
@@ -527,10 +526,15 @@ section {
 
 .carousel-item img {
   border-radius: 10px;
-  max-height: 600px; /* Ajustez la hauteur maximale des images selon vos besoins */
+  max-height: 600px; /* Hauteur maximale pour les images paysage */
   width: auto;
   margin: 0 auto;
   object-fit: cover; /* Évite l'étirement tout en couvrant la zone spécifiée */
+}
+
+/* Ajoutez une règle spécifique pour les images en format portrait */
+.carousel-item img.portrait {
+  max-height: 600px; /* Ajustez la hauteur maximale pour les images portrait selon vos besoins */
 }
 
 .carousel-control-prev,
